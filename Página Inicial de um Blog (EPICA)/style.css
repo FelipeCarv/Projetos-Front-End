@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 219, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    
+    width: 1080px;
+    margin: auto;
+    background-color: white;
+}
+
+#conteudo{
+    padding: 16px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+
+#topo{
+    padding: 5px;
+    background-color: rgb(139, 111, 72);
+    text-align: right;
+    padding-right: 16px;
+}
+
+#topo a{
+    color: rgb(221, 218, 218);
+    font-weight: 530;
+    padding: 5px;
+}
+
+#topo a:hover{
+    text-decoration: underline;
+}
+
+#navegacao{
+    background-color: rgb(139, 111, 72) ;
+    position: sticky;
+    top: 0px;   
+}
+
+#destaque{
+    height: 410.95px;
+}
+
+.menu{
+    list-style: none;
+    padding: 16px;
+    margin-top: 0px;
+    
+}
+
+.menu li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+.menu li a{
+    color: rgb(221, 218, 218);
+    font-weight: 530;
+    padding: 16px;
+}
+
+.menu li a:hover{
+    background-color: rgb(153, 126, 88);
+    transition: 0.4s;
+}
+
+#rodape{
+    background-color: rgb(139, 111, 72) ;
+    padding: 16px;
+    text-align: center;
+}
+
+#rodape a{
+    color: rgb(221, 218, 218);
+}
